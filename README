@@ -1,0 +1,50 @@
+wavegain
+------------------------------------------
+ReplayGain for wave files
+
+Runtime requirements:
+  cygwin-1.5.25-15
+
+Build requirements:
+(besides corresponding -devel packages)
+  binutils-20080523-2
+  cygport-0.3.12-1
+  gcc-core-3.4.4-3
+  make-3.81-1
+
+Canonical website:
+  http://rarewares.org/others.php
+
+Canonical download:
+  http://rarewares.org/files/others/
+
+-------------------------------------------
+
+Build instructions:
+  unpack wavegain-1.2.6-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./wavegain-1.2.6-X.cygport all
+
+This will create:
+  /usr/src/wavegain-1.2.6-X-src.tar.bz2
+  /usr/src/wavegain-1.2.6-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/wavegain.exe
+  /usr/share/doc/wavegain-1.2.6/COPYING
+
+------------------
+
+Port Notes:
+
+----- version 1.2.6-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

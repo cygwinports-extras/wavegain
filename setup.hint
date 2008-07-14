@@ -1,0 +1,4 @@
+category: Audio
+requires: cygwin
+sdesc: "ReplayGain for wave files"
+ldesc: "ReplayGain for wave files"

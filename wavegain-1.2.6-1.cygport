@@ -1,0 +1,15 @@
+DESCRIPTION="ReplayGain for .wav files"
+HOMEPAGE="http://rarewares.org/others.php"
+SRC_URI="http://www.rarewares.org/files/others/${P}srcs.zip"
+SRC_DIR="WaveGain-${PV}"
+
+src_compile() {
+	lndirs
+	cd ${B}
+	cygmake -f Makefile.linux
+}
+
+src_install() {
+	cd ${B}
+	dobin wavegain.exe
+}
